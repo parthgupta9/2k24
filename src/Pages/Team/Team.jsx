@@ -57,9 +57,9 @@ function Team() {
             Management Team Committee
           </p>
           <div>
-            <div className="cards11 pt-16  flex flex-wrap justify-center w-full">
+            <div className="cards11 pt-16  flex flex-wrap justify-center w-33%">
               {manTeam.map((member) => (
-                <div className="w-full px-10 pb-20 mb-32 pp">
+                <div className="w-33% px-10 pb-20 mb-32 pp">
                   <img
                     className="object-cover"
                     src={member.photo}
@@ -227,7 +227,7 @@ function Team() {
         <div className=" ">
           <div className="cards11 pt-16  flex flex-wrap justify-center w-full">
             {team.map((member) => (
-              <div className="w-full px-10 pb-20 mb-32 pp">
+              <div className="w-33% px-10 pb-20 mb-32 pp">
                 <img
                   className="object-cover"
                   src={member.photo}
@@ -251,7 +251,7 @@ function Team() {
         <div className=" pb-36">
           <div className="cards11 pt-16  flex flex-wrap justify-center w-full">
             {techTeam.map((member) => (
-              <div className="w-full px-10 pb-20 mb-32 pp">
+              <div className="w-33% px-10 pb-20 mb-32 pp">
                 <img
                   className="object-cover"
                   src={member.photo}
