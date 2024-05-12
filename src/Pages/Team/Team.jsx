@@ -15,10 +15,6 @@ function Team() {
     setTechTeam(teamDataTech);
     setManTeam(teamDataMan);
   }, []);
-  // const [team, setTeam] = useState([]);
-  // useEffect(() => {
-  //   setTeam(teamData);
-  // }, []);
 
   return (
     <>
