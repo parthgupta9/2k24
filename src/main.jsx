@@ -5,6 +5,7 @@ import configureStore from "./store/configureStore.js";
 import App from "./App.jsx";
 import "./index.css";
 import "./resets.css";
+import './style.css';
 
 const store = configureStore();
 
